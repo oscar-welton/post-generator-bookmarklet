@@ -502,7 +502,6 @@ const articleTitles = [
   }
   
   async function createPasslePost() {
-    console.log("hello world");
     if (window.location.pathname.includes('newpost')) {
       await addPostTitle();
       await addPostContent();
